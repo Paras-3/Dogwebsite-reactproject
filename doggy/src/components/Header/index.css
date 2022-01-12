@@ -1,0 +1,22 @@
+header {
+  text-align: center;
+  padding: 16px;
+  background-color: #3498db;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > h2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.custom-search-btn {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
